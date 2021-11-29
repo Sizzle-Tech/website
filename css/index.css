@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body {
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.row {
+    height: 100vh;
+}
+
+@media screen and (max-width: 540px) {
+    #logo {
+        text-align: center;
+    }
+}
