@@ -1,16 +1,59 @@
 @charset "UTF-8";
 
 body {
-    height: 100vh;
     margin: 0 auto;
+    background-color: #F4FCF7;
+    font-family: 'Sarabun', sans-serif;
+}
+
+#hero-section {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 100vh;
 }
 
 .row {
     height: 100vh;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 768px) {
     #logo {
         text-align: center;
     }
+}
+
+h1 {
+    font-weight: 600 !important;
+}
+
+p {
+    font-weight: 400 !important;
+}
+
+button {
+    font-weight: 600 !important;
+    font-family: 'Sarabun', sans-serif;
+}
+
+.btn-primary {
+    background-color: #E35415;
+    border: none;
+}
+
+.btn-primary:active {
+    background-color: #FF7F47;
+}
+
+.btn-primary:active:focus {
+    background-color: #FF7F47;
+    box-shadow: 0 0 0 0.25rem rgb(255 197 171 / 50%);
+}
+
+.btn-primary:hover {
+    background-color: #FF7F47;
+}
+
+.btn-primary:focus {
+    background-color: #E35415;
+    box-shadow: 0 0 0 0.25rem rgb(255 197 171 / 50%);
 }
