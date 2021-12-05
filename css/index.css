@@ -7,8 +7,8 @@ body {
 }
 
 #hero-section {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     height: 100vh;
 }
 
@@ -19,6 +19,14 @@ body {
 @media screen and (max-width: 768px) {
     #logo {
         text-align: center;
+    }
+
+    #hero-section {
+        height: auto;
+    }
+
+    .row {
+        height: auto;
     }
 }
 
